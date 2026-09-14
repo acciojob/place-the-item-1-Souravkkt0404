@@ -1,2 +1,12 @@
+.holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-/* Your CSS Code here. */
+.item {
+  width: 150px; /* or auto width / fixed width used in the test case */
+  height: 150px;
+  font-size: 5rem;
+}
