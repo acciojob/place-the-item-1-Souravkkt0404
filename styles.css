@@ -1,12 +1,18 @@
 .holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
 
-.item {
-  width: 150px; /* or auto width / fixed width used in the test case */
-  height: 150px;
-  font-size: 5rem;
-}
+    .item {
+      width: 150px;
+      height: 150px;
+      font-size: 5rem;
+      box-sizing: border-box;
+    }
+
+    /* Colors matching the prompt diagram */
+    .green { background-color: green; }
+    .red   { background-color: red; }
+    .blue  { background-color: blue; }
